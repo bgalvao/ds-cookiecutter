@@ -1,17 +1,36 @@
-# Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the documentation of Cookiecake[^1] - an opinionated Data Science Cookiecutter. Featuring:
 
-## Commands
+[^1]: The [best cake](https://www.196flavors.com/portugal-bolo-de-bolacha/) there is in the world.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## A modern and open-source[^2] data science stack
 
-## Project layout
+[^2]: None of these tools lock you down to any vendor but some may offer their own hosted solution.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [MLFlow](https://mlflow.org) for experiment tracking 👩🏽‍🔬📑 and easy model server building. 👨🏼‍🔧
+- [Prefect 2.0](https://orion-docs.prefect.io/) for data workflow orchestration. 🔢🔀🎻
+- Testing
+    - [Deepchecks](https://deepchecks.com) for data and model validation. 🧪
+    - [pytest](https://docs.pytest.org/en/7.1.x/) to run Deepchecks in your codebase. ✅
+- Iterative tools
+    - [DVC](https://dvc.org) for data and model versioning and cached experiment pipelines 🎛️  - ensuring **_experiment reproducibility_**.
+    - [MLEM](https://mlem.ai/) as an alternative tool for model deployment.😺
+- [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html) for data exploration and literate programming. 📚
+- [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) as the package manager. 🐍🛠️📦
+
+Inspired by [Cookiecutter Modern Data Science](https://github.com/crmne/cookiecutter-modern-datascience) and [OpenMLOps](https://github.com/datarevenue-berlin/openmlops).
+
+
+## What is this project
+
+This is a cookiecutter to generate a project template for you to structure your data science work using best practices and modern tooling.
+
+## What this project is not
+
+This is not a:
+
+- ETL template - your data sources are assumed to be consolidated in a data warehouse / lake.
+- An Infrastructure as Code source: you will need to set up your infrastructure and look into how to connect the code of this template to your infrastructure yourself. [OpenMLOps](https://github.com/datarevenue-berlin/openmlops) for instance is using Terraform + AWS.
+
+
+

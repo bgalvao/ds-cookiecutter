@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: Cookiecake Data Science Cookiecutter
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+markdown_extensions:
+  - footnotes
