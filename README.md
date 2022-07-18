@@ -1,4 +1,4 @@
-# ds-cookiecutter (Cookiecake)
+# Cookiecake
 An opinionated Data Science Cookiecutter. Featuring:
 
 - [MLFlow](https://mlflow.org) for experiment tracking 👩🏽‍🔬📑 and easy model server building. 👨🏼‍🔧
