@@ -18,15 +18,8 @@ Inspired by [Cookiecutter Modern Data Science](https://github.com/crmne/cookiecu
 
 1. Install [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) dependency so that the post-gen hook runs.
 2. Install cookiecutter.
-3. `cookicutter https://github.com/kintsugi-mlops/ds-cookiecutter`
+3. `cookiecutter https://github.com/kintsugi-mlops/ds-cookiecutter`
 
-
-## Roadmap:
-
-- [ ] write tests.
-- [ ] write GitHub Actions.
-- [ ] write GitLab CI/CD (`./gitlab-ci.yml`).
-- [ ] consider adding Great Expectations.
 
 ## project structure
 
@@ -47,13 +40,3 @@ Inspired by [Cookiecutter Modern Data Science](https://github.com/crmne/cookiecu
    └── deepchecks
       └── tabular     # boilerplate pytest-deepchecks to be customized
 ```
-
-
-
-## Roadmap:
-
-- [ ] write tests
-  - [x] wrote cookiecutter of Deepchecks ([bgalvao/mlops-pytests](https://github.com/bgalvao/mlops-pytests))
-  - [ ] consider adding Great Expectations.
-- [ ] write GitLab CI/CD (`./gitlab-ci.yml`).
-  - [ ] Nice-to-have: write GitHub Actions.
