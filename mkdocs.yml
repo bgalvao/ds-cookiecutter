@@ -26,8 +26,8 @@ site_description: >-
   An opinionated project structure and stack for Data Science projects.
 
 # Repository
-repo_name: bgalvao/ds-cookiecutter
-repo_url: https://github.com/bgalvao/ds-cookiecutter
+repo_name: bgalvao/cookiecake
+repo_url: https://github.com/bgalvao/cookiecake
 
 # Copyright
 copyright: Copyright &copy; 2022 Bernardo Galvão
